@@ -7,7 +7,7 @@
 
 .clearfix::after {
   content: "";
-  display: flex;
+  display: block;
   clear: both;
 }
 /* /general */
@@ -61,4 +61,12 @@ section .row {
   float: left;
   background-color: lightblue;
   height: 500px;
+}
+/* /section */
+
+/*footer */
+footer {
+  height: 50px;
+  background-color: blueviolet;
+  margin: 10px 0 20px;
 }
