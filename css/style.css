@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after {
+  content: "";
+  display: flex;
+  clear: both;
+}
 /* /general */
 
 /* container */
@@ -35,6 +41,24 @@ section {
 }
 
 .section-heading {
-  height: 50px;
+  height: 70px;
   background-color: lightblue;
+}
+
+section .row {
+  padding: 15px 0;
+}
+
+.col.left, .col.right {
+  width: 25%;
+}
+.col.center {
+  margin: 0 10px;
+  width: calc(50% - 20px);
+}
+
+.row > .col {
+  float: left;
+  background-color: lightblue;
+  height: 500px;
 }
