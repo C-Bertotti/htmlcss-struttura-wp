@@ -1,5 +1,31 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /general */
+
+/* container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* /container */
+
+/* header */
+header {
+  height: 15vh;
+  background-color: pink;
+  margin: 3vh 0;
+}
+/* /header */
+
+/* main */
+.banner {
+  height: 76vh;
+  background-color: khaki;
+  margin-bottom: 3vh;
+}
+
+/* /main */
