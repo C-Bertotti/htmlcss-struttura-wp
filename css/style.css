@@ -27,5 +27,14 @@ header {
   background-color: khaki;
   margin-bottom: 3vh;
 }
-
 /* /main */
+
+/* section */
+section {
+  background-color: blue;
+}
+
+.section-heading {
+  height: 50px;
+  background-color: lightblue;
+}
